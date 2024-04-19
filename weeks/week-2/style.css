@@ -1,0 +1,18 @@
+.metal{
+    font-size: 30px;
+    color: black;
+}
+.rep{
+    font-size: 20px;
+    color: red;
+}
+.rock,
+.food{
+    font-size: 20px;
+    color: yellow;
+}
+
+li{
+    font-size: 45px;
+    color: rgb(255, 140, 0);
+}

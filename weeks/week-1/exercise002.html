@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation for a b-day party</title>
+</head>
+<body>
+  <h2>Invitation for a b-day party</h2>
+    <form>
+        <label for="first-name">Enter your first name:</label>
+        <input type="text" name="first-name" id="first-name" placeholder="Janko">
+        <label for="last-name">Enter your last name:</label>
+        <input type="text" name="last-name" id="last-name" placeholder="Janic">
+    </form>
+    <br>
+    <form>
+        <label for="phone-number">Enter your phone number</label>
+        <input type="tel" name="phone-number" id="phone-number" 
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="044-733-721">
+    </form>
+    <br>
+    <form>
+        <label for="meal">Choose your meal:</label>
+        <select name="meal" id="meal">
+            <option value="fish">Fish</option>
+            <option value="chicken">Chicken</option>
+            <option value="vegeterian">Vegeterian</option>
+        </select>
+    </form>
+    <br>
+    <form>
+        Choose your side-dishes:<br>
+        <input type="checkbox" name="side-dishes" id="side-dishes">
+        <label for="side-dishes">Fries</label>
+        <input type="checkbox" name="side-dishes" id="side-dishes">
+        <label for="side-dishes">Salad</label>
+        <input type="checkbox" name="extra" id="side-dishes">
+        <label for="side-dishes">Soup</label>
+        <input type="checkbox" name="extra" id="side-dishes">
+        <label for="side-dishes">Bred</label>
+        <input type="checkbox" name="extra" id="side-dishes">
+        <label for="side-dishes">Panini</label>
+    </form>
+    <br>
+    <form>
+      <label for="alergies">Please provide info about alergies:</label>
+      <textarea id="alergies" cols="30" rows="4" placeholder="Wright something here" ></textarea>
+    </form>
+    <br>
+    <button type="submit">Submit</button>
+</body>
+</html>
