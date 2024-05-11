@@ -102,7 +102,7 @@ window.addEventListener("load", () => {
   }
 });
 
-let diego = ["coder", 32, "foodie lover"];
-for (let x of diego) {
+let elvin = ["coder", 32, "foodie lover"];
+for (let x of elvin) {
   console.log(x);
 }
